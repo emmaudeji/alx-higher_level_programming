@@ -5,6 +5,7 @@ def to_uper(char):
     else:
         return ord(char)
 
+
 def uppercase(string):
     string_new = ""
     for char in string:
