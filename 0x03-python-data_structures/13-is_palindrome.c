@@ -1,5 +1,3 @@
-#!/bin/usr/python3
-
 #include "lists.h"
 
 /**
