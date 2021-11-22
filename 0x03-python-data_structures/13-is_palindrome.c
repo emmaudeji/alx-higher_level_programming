@@ -1,20 +1,19 @@
+#!/bin/usr/python3
+
 #include "lists.h"
 
 /**
  * palindrom -  recursive palind or not
  * @head: head list
- *
  * Return: 0 if it is not a palindrome
  * 1 if it is a palindrome
  */
-
 int is_palindrome(listint_t **head)
 {
 	if (head == NULL || *head == NULL)
 		return (1);
 	return (aux_palind(head, *head));
 }
-
 
 /**
  * aux_palind - funct to know if is palindrome
