@@ -9,10 +9,12 @@ def pascal_triangle(n):
     if n <= 0:
         return []
 
-    # iterarte upto n
-    for i in range(n):
-        # adjust space
-        return (' '*(n-i), end='')
-
-        # compute power of 11
-        return (' '.join(map(str, str(11**i))))   
+    triangles = [[1]]
+    while len(triangles) != n:
+        tri = triangles[-1]
+        tmp = [1]
+        for i in range(len(tri) - 1):
+            tmp.append(tri[i] + tri[i + 1])
+        tmp.append(1)
+        triangles.append(tmp)
+    return triangles
