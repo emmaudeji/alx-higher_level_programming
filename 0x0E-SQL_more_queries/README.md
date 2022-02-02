@@ -1,7 +1,7 @@
 # 0x0E-SQL_more_queries
 
 ### CONCEPTS
-In this project folder, I learn about:
+In this project, I learnt about:
 
 - How to create a new MySQL user
 - How to manage privileges for a user to a database or table
