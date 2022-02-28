@@ -1,6 +1,6 @@
 # 0x12. JavaScript - Warm up
 
-#### In this Project, we are learning the basics of Javascript
+#### In this Project, we are learning the basics of programing with Javascript
 - Why JavaScript programming is amazing
 - How to run a JavaScript script
 - How to create variables and constants
