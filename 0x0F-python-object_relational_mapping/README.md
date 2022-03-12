@@ -9,6 +9,7 @@ In this project I'm learning the ORM Basics. It includes:
 - How to map a Python Class to a MySQL table
 
 ## Resources
+
 <ul>
 <li><a href="/rltoken/a8DUOWhXpNX3TEwgyT-U8A" title="Object-relational mappers" target="_blank">Object-relational mappers</a> </li>
 <li><a href="/rltoken/JtFaKjnqxudr6Hi05Us1Lw" title="mysqlclient/MySQLdb documentation" target="_blank">mysqlclient/MySQLdb documentation</a> (<em>please don’t pay attention to <code>_mysql</code></em>)</li>
